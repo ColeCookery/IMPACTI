@@ -324,7 +324,7 @@ export default function App() {
             <Cloud className="top-24 left-[85%] animate-float-slow" />
             <div className="relative max-w-md mx-auto mt-20 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
               <div className="text-center mb-8">
-                <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-red-500 via-blue-500 to-violet-500 bg-clip-text text-transparent">
+                <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
                   Welcome to IMPACTI
                 </h1>
                 <p className="text-gray-600">Sign in to manage your ideas</p>
