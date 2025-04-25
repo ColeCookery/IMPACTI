@@ -5,6 +5,8 @@ import { SignOutButton } from "./SignOutButton";
 import { Toaster } from "sonner";
 import { useState } from "react";
 import { useMutation } from "convex/react";
+import logo from "./assets/logo.png";
+
 
 const STATUSES = [
   "Idea",
@@ -324,9 +326,12 @@ export default function App() {
             <Cloud className="top-24 left-[85%] animate-float-slow" />
             <div className="relative max-w-md mx-auto mt-20 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
               <div className="text-center mb-8">
-                <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
-                  Welcome to IMPACTI
-                </h1>
+                <div className="flex items-center justify-center gap-4 mb-4">
+                  <img src={logo} alt="IMPACTI logo" className="w-12 h-12" />
+                  <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 bg-clip-text text-transparent">
+                    Welcome to IMPACTI
+                  </h1>
+                </div>
                 <p className="text-gray-600">Sign in to manage your ideas</p>
               </div>
               <SignInForm />
