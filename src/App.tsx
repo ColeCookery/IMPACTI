@@ -326,8 +326,8 @@ export default function App() {
             <Cloud className="top-24 left-[85%] animate-float-slow" />
             <div className="relative max-w-md mx-auto mt-20 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
               <div className="text-center mb-8">
-                <div className="flex items-center justify-center gap-4 mb-4">
-                  <img src={logo} alt="IMPACTI logo" className="w-12 h-12" />
+                <div className="flex items-center justify-center gap-4 mb-4 text-center">
+                  <img src={logo} alt="IMPACTI logo" className="w-20 h-20 object-contain" />
                   <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 bg-clip-text text-transparent">
                     Welcome to IMPACTI
                   </h1>
