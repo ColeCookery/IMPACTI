@@ -331,7 +331,7 @@ export default function App() {
               <div className="text-center mb-8">
                 <div className="flex items-center justify-center gap-0 mb-4 text-center">
                   <img src={logo} alt="IMPACTI logo" className="w-20 h-20 object-contain" />
-                  <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 bg-clip-text text-transparent">
+                  <h1 className="text-4xl font-bold -ml-2 bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 bg-clip-text text-transparent">
                     Welcome to IMPACTI
                   </h1>
                 </div>
