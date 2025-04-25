@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
+  base: '/IMPACTI/', // MUST match repo name
   plugins: [react()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/IMPACTI/', // MUST match repo name
+  
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
