@@ -10,4 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/IMPACTI/", // 👈 Add this line (use your actual repo name!)
 });
