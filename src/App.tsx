@@ -292,7 +292,7 @@ function AuthenticatedApp() {
         <div>
           <div className="flex items-center gap-2">
             <h2 className="text-2xl font-bold">IMPACTI</h2>
-            <img src={logo} alt="Logo" className="w-6 h-6 object-contain" />
+            <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
           </div>
           <p className="text-sm text-gray-500">
             <span className="text-red-500">I</span>dea · 
@@ -329,7 +329,7 @@ export default function App() {
             <Cloud className="top-24 left-[85%] animate-float-slow" />
             <div className="relative max-w-md mx-auto mt-20 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
               <div className="text-center mb-8">
-                <div className="flex items-center justify-center gap-2 mb-4 text-center">
+                <div className="flex items-center justify-center gap-0 mb-4 text-center">
                   <img src={logo} alt="IMPACTI logo" className="w-20 h-20 object-contain" />
                   <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 bg-clip-text text-transparent">
                     Welcome to IMPACTI
